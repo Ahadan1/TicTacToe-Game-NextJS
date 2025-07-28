@@ -9,20 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-  "next": "15.4.4",
-  "ogl": "^1.0.11",
-  "react": "19",
-  "react-dom": "19"
-},
+    "next": "^14.2.3",     // Change from "15.4.4" to latest stable 14.x
+    "ogl": "^1.0.11",
+    "react": "^18.2.0",    // Change from "19.1.0" to latest stable 18.x
+    "react-dom": "^18.2.0" // Change from "19.1.0" to latest stable 18.x
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
+    "@eslint/eslint-rc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^19", // You might need to adjust this to 18 as well, or remove if not strictly needed
+    "@types/react-dom": "^19", // Adjust this to 18 or remove
     "eslint": "^9",
-    "eslint-config-next": "15.4.4",
+    "eslint-config-next": "14.4.4", // Also change this to match your Next.js version, e.g., "14.2.3"
     "tailwindcss": "^4",
     "typescript": "^5"
   }
