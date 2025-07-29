@@ -12,9 +12,9 @@ A beautiful, animated Tic Tac Toe game built with Next.js 15, TypeScript, Tailwi
 - Built with Next.js App Router and React Server/Client Components
 
 ## Tech Stack
-[![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 - [OGL](https://github.com/oframe/ogl) (for animated galaxy background)
 - React Hooks
 - [ReactBits](https://reactbits.dev/)
@@ -47,3 +47,6 @@ A beautiful, animated Tic Tac Toe game built with Next.js 15, TypeScript, Tailwi
 ## Customization
 - Update styles in `globals.css` or Tailwind config
 - Change background or UI in `tictactoe.tsx`
+
+## License
+MIT
